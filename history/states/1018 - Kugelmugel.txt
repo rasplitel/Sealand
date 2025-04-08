@@ -1,0 +1,28 @@
+state = {
+	id = 1018
+	name = "STATE_1018"
+	manpower = 10
+	
+	state_category = pastoral
+
+	history = {
+
+		owner = KUG
+		add_core_of = KUG
+
+		buildings = {
+			infrastructure = 1
+		}
+
+		victory_points = {
+			13377 1 # Kugelmugel
+		}
+		
+	}
+
+	provinces = {
+		13377
+	}
+
+	local_supplies = 1.0 
+}

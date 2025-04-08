@@ -1,0 +1,31 @@
+state = {
+	id = 1017
+	name = "STATE_1017"
+	manpower = 100 
+	
+	state_category = pastoral
+
+	history = {
+
+		owner = SEA
+		add_core_of = SEA
+
+		buildings = {
+			infrastructure = 1
+			13376 = {
+				naval_base = 1
+			}
+		}
+
+		victory_points = {
+			13376 1 # Sealand
+		}
+		
+	}
+
+	provinces = {
+		13376
+	}
+
+	local_supplies = 1.0 
+}
