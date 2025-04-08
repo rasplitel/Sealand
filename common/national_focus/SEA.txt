@@ -1,0 +1,22 @@
+focus_tree = {
+	id = SEA_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SEA
+		}
+	}
+	
+	default = no
+	focus = {
+		id = focus1
+		x = 50
+		y = 50
+		cost = 1
+		completion_reward = {
+			add_political_power = 25
+		}
+	}
+	

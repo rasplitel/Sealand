@@ -1,0 +1,19 @@
+characters = {
+  SEA_Paddy_Roy_Bates = {
+    name = Paddy_Roy_Bates
+    portraits = {
+      civilian = {
+        large = GFX_Paddy_Roy_Bates
+      }
+      army = {
+        large = GFX_Paddy_Roy_Bates
+      }
+    }
+    country_leader = {
+      ideology = constitutional_monarchy
+      traits = {  }
+      expire = "2012.10.9.1"
+      id = -1
+    }
+  }
+}
