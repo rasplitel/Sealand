@@ -1,0 +1,8 @@
+spriteTypes = {
+
+	spriteType = {
+		name = GFX_Portrait_SEA_Paddy_Roy_Bates
+		texturefile = "gfx/leaders/SEA/Portrait_SEA_Paddy_Roy_Bates.dds"
+	}
+	
+}

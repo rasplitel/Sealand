@@ -36,9 +36,6 @@ set_popularities = {
 	neutrality = 50
 }
 
-
-recruit_character = ABK_kirilli_bechvaya
-
 recruit_character = SEA_Paddy_Roy_Bates
 
 
