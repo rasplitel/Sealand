@@ -36,6 +36,14 @@ set_popularities = {
 	neutrality = 50
 }
 
+add_ideas = {
+	idea_SEA_Prince_Michael_Roy_Bates
+}
+
+
 recruit_character = SEA_Paddy_Roy_Bates
+
+
+
 
 
