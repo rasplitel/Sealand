@@ -1,6 +1,5 @@
 focus_tree = {
 	id = SEA_focus
-	
 	country = {
 		factor = 0
 		modifier = {
@@ -8,15 +7,274 @@ focus_tree = {
 			tag = SEA
 		}
 	}
-	
 	default = no
 	focus = {
-		id = focus1
-		x = 50
-		y = 50
-		cost = 1
-		completion_reward = {
-			add_political_power = 25
-		}
+		id = SEA_Sealand_born
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 10
+		y = 1
+
 	}
-	
+	focus = {
+		id = SEA_open_ceh
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = SEA_Sealand_born
+		}
+		x = 8
+		y = 3
+
+	}
+	focus = {
+		id = SEA_kust_production
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = SEA_open_ceh
+		}
+		x = 8
+		y = 4
+
+	}
+	focus = {
+		id = SEA_form_king_army
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = SEA_kust_production
+		}
+		x = 7
+		y = 6
+
+	}
+	focus = {
+		id = SEA_sell_pasport
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = SEA_Sealand_born
+		}
+		x = 12
+		y = 3
+
+	}
+	focus = {
+		id = SEA_migrants
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = SEA_sell_pasport
+		}
+		x = 12
+		y = 4
+
+	}
+	focus = {
+		id = SEA_expand_platform_1
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = SEA_kust_production
+			focus = SEA_migrants
+		}
+		x = 10
+		y = 6
+
+	}
+	focus = {
+		id = SEA_save_jews
+		icon = GFX_goal_tripartite_pact
+		cost = 0
+		prerequisite = {
+			focus = SEA_migrants
+		}
+		x = 14
+		y = 6
+
+	}
+	focus = {
+		id = SEA_make_stroibat
+		icon = GFX_goal_generic_construction
+		cost = 0
+		prerequisite = {
+			focus = SEA_expand_platform_1
+		}
+		x = 14
+		y = 8
+
+	}
+	focus = {
+		id = SEA_expand_platform_2
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = SEA_make_stroibat
+		}
+		x = 14
+		y = 10
+
+	}
+	focus = {
+		id = SEA_buy_stanki
+		icon = GFX_goal_generic_air_production
+		cost = 0
+		prerequisite = {
+			focus = SEA_make_stroibat
+		}
+		x = 16
+		y = 10
+
+	}
+	focus = {
+		id = SEA_new_platform
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = SEA_expand_platform_1
+		}
+		x = 10
+		y = 8
+
+	}
+	focus = {
+		id = SEA_Find_res
+		icon = GFX_goal_generic_oil_refinery
+		cost = 0
+		prerequisite = {
+			focus = SEA_new_platform
+		}
+		x = 10
+		y = 10
+
+	}
+	focus = {
+		id = SEA_buy_res
+		icon = GFX_goal_generic_positive_trade_relations
+		cost = 0
+		prerequisite = {
+			focus = SEA_expand_platform_1
+		}
+		x = 7
+		y = 8
+
+	}
+	focus = {
+		id = SEA_Sealand_avtark
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 0
+		prerequisite = {
+			focus = SEA_Find_res
+			focus = SEA_buy_res
+		}
+		prerequisite = {
+			focus = SEA_expand_platform_2
+		}
+		prerequisite = {
+			focus = SEA_buy_stanki
+		}
+		x = 10
+		y = 12
+
+	}
+	focus = {
+		id = SEA_bought_workers
+		icon = GFX_goal_generic_construction2
+		cost = 0
+		prerequisite = {
+			focus = SEA_make_stroibat
+		}
+		x = 18
+		y = 10
+
+	}
+	focus = {
+		id = SEA_Scinse_1
+		icon = GFX_focus_research
+		cost = 0
+		prerequisite = {
+			focus = SEA_Sealand_avtark
+		}
+		x = 4
+		y = 14
+
+	}
+	focus = {
+		id = SEA_patent
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 0
+		prerequisite = {
+			focus = SEA_Scinse_1
+		}
+		x = 2
+		y = 16
+
+	}
+	focus = {
+		id = SEA_CBO_1
+		icon = GFX_goal_generic_production2
+		cost = 0
+		prerequisite = {
+			focus = SEA_Scinse_1
+		}
+		x = 4
+		y = 16
+
+	}
+	focus = {
+		id = SEA_dock_build
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 0
+		prerequisite = {
+			focus = SEA_Sealand_avtark
+		}
+		x = 7
+		y = 14
+
+	}
+	focus = {
+		id = SEA_control_production
+		icon = GFX_goal_generic_consumer_goods
+		cost = 0
+		prerequisite = {
+			focus = SEA_Sealand_avtark
+		}
+		x = 10
+		y = 14
+
+	}
+	focus = {
+		id = SEA_open_factory
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 0
+		prerequisite = {
+			focus = SEA_CBO_1
+		}
+		x = 4
+		y = 18
+
+	}
+	focus = {
+		id = SEA_ukrep_coast
+		icon = GFX_goal_generic_navy_cruiser
+		cost = 0
+		prerequisite = {
+			focus = SEA_dock_build
+		}
+		x = 7
+		y = 16
+
+	}
+	focus = {
+		id = SEA_expand_admin
+		icon = GFX_goal_generic_national_unity
+		cost = 0
+		prerequisite = {
+			focus = SEA_control_production
+		}
+		x = 10
+		y = 16
+
+	}
+}
